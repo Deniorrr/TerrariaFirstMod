@@ -34,15 +34,6 @@ namespace DeniorrsTest.Items
             item.useAmmo = AmmoID.Gel;
             item.UseSound = SoundID.Item122;
         }
-
-        // public override void GetHealLife(Player player, bool quickHeal, ref int healValue)
-        // {
-        //     // Make the item heal half the player's max health normally, or one fourth if used with quick heal
-        //     //healValue = 5;
-        // }
-        //public override bool UseItem(Player player)
-        //{
-        //
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
